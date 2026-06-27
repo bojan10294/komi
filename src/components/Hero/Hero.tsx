@@ -60,7 +60,7 @@ export default function Hero() {
       {/* Scroll Indicator */}
       <div className="absolute bottom-40 left-1/2 z-10 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
         <span 
-          className="font-light tracking-widest uppercase opacity-70"
+          className="tracking-widest uppercase opacity-70"
           style={{ color: '#fffdf7', fontFamily: 'var(--font-display)' }}
         >
           Skrolujte
