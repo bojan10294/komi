@@ -3,11 +3,11 @@ import styles from './Rsvp.module.css'
 
 export default function Rsvp() {
   return (
-    <section className="py-16 px-6 md:py-24" style={{ backgroundColor: 'var(--color-bg)' }}>
+    <section id="rsvp" className="py-16 px-6 md:py-24" style={{ backgroundColor: 'var(--color-bg)' }}>
       <div className="mx-auto max-w-2xl text-center">
 
         <p
-          className="text-xs font-light uppercase tracking-[0.3em]"
+          className="font-light uppercase tracking-[0.3em]"
           style={{ color: 'var(--color-primary)' }}
         >
           Molimo Vas da popunite

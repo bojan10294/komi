@@ -13,7 +13,7 @@ export default function Details() {
         </div>
 
         <p
-          className="mt-6 text-xs font-light uppercase tracking-[0.3em]"
+          className="mt-6 font-light uppercase tracking-[0.3em]"
           style={{ color: 'var(--color-primary)' }}
         >
           Mesto i vreme

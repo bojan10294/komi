@@ -6,6 +6,7 @@ export default function Hero() {
     <section
       className={`relative flex min-h-screen items-center justify-center ${styles.hero}`}
     >
+      {/* Main Content */}
       <div className="relative z-10 flex flex-col items-center gap-6 px-6 text-center">
         <p
           className="text-lg font-light uppercase tracking-[0.3em]"
@@ -42,18 +43,38 @@ export default function Hero() {
         </p>
 
         <p
-          className="text-xs font-light tracking-wide md:text-base md:tracking-[0.2em]"
+          className="text-xs font-light tracking-wide md:text-xl md:tracking-[0.2em]"
           style={{ color: 'rgba(255, 253, 247, 0.8)' }}
         >
           {WEDDING.arrivalTime} dolazak · {WEDDING.ceremonyTime} venčanje · {WEDDING.venueName}
         </p>
 
         <p
-          className="mt-2 max-w-md text-lg font-light leading-relaxed md:text-base"
+          className="mt-2 max-w-md text-lg font-light leading-relaxed md:text-2xl"
           style={{ color: 'rgba(255, 253, 247, 0.75)', fontFamily: 'var(--font-display)', fontStyle: 'italic' }}
         >
           {WEDDING.invitationText}
         </p>
+      </div>
+
+      {/* Scroll Indicator */}
+      <div className="absolute bottom-8 left-1/2 z-10 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+        <span 
+          className="font-light tracking-widest uppercase opacity-70"
+          style={{ color: '#fffdf7', fontFamily: 'var(--font-display)' }}
+        >
+          Skrolujte
+        </span>
+        <svg 
+          className="w-6 h-6 opacity-70" 
+          fill="none" 
+          stroke="currentColor" 
+          strokeWidth="1.5" 
+          viewBox="0 0 24 24" 
+          style={{ color: 'var(--color-primary)' }}
+        >
+          <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+        </svg>
       </div>
     </section>
   )

@@ -4,6 +4,7 @@ import Gallery from './components/Gallery/Gallery'
 import Countdown from './components/Countdown/Countdown'
 import Rsvp from './components/Rsvp/Rsvp'
 import Map from './components/Map/Map'
+import FixedRsvpButton from './components/FixedRsvpButton/FixedRsvpButton'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Countdown />
       <Rsvp />
       <Map />
+      <FixedRsvpButton />
     </main>
   )
 }
