@@ -50,7 +50,7 @@ export default function Hero() {
         </p>
 
         <p
-          className="mt-6 max-w-md text-2xl font-light leading-relaxed md:text-3xl"
+          className="mt-6 max-w-md text-2xl font-normal leading-relaxed md:text-3xl"
           style={{ color: 'rgba(255, 253, 247, 0.75)', fontFamily: 'var(--font-display)', fontStyle: 'italic' }}
         >
           {WEDDING.invitationText}
