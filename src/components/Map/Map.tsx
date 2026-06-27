@@ -7,7 +7,7 @@ export default function Map() {
       <div className="mx-auto max-w-4xl text-center">
 
         <p
-          className="font-light uppercase tracking-[0.3em]"
+          className="text-xs font-light uppercase tracking-[0.3em]"
           style={{ color: 'var(--color-primary)' }}
         >
           Lokacija

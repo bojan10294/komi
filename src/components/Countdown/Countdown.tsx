@@ -39,7 +39,7 @@ export default function Countdown() {
       <div className="mx-auto max-w-2xl text-center">
 
         <p
-          className="font-light uppercase tracking-[0.3em]"
+          className="text-xs font-light uppercase tracking-[0.3em]"
           style={{ color: 'var(--color-primary)' }}
         >
           Odbrojavanje

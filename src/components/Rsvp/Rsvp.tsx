@@ -7,7 +7,7 @@ export default function Rsvp() {
       <div className="mx-auto max-w-2xl text-center">
 
         <p
-          className="font-light uppercase tracking-[0.3em]"
+          className="text-xs font-light uppercase tracking-[0.3em]"
           style={{ color: 'var(--color-primary)' }}
         >
           Molimo Vas da popunite
@@ -32,7 +32,7 @@ export default function Rsvp() {
               src={RSVP_FORM_URL}
               className={styles.iframe}
               width="500"
-              height="1144"
+              height="1250"
               frameBorder="0"
               marginHeight={0}
               marginWidth={0}
