@@ -32,7 +32,7 @@ export default function Rsvp() {
               src={RSVP_FORM_URL}
               className={styles.iframe}
               width="500"
-              height="1250"
+              height="1350"
               frameBorder="0"
               marginHeight={0}
               marginWidth={0}
