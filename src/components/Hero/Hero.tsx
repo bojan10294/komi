@@ -7,7 +7,7 @@ export default function Hero() {
       className={`relative flex min-h-screen items-center justify-center ${styles.hero}`}
     >
       {/* Main Content */}
-      <div className="relative z-10 flex flex-col items-center gap-6 px-6 text-center max-md:pb-20">
+      <div className="relative z-10 flex flex-col items-center gap-6 px-6 text-center max-md:pb-28">
         <p
           className="text-lg font-light uppercase tracking-[0.3em]"
           style={{ color: 'var(--color-primary)' }}
@@ -43,14 +43,14 @@ export default function Hero() {
         </p>
 
         <p
-          className="text-xs font-light tracking-wide md:text-xl md:tracking-[0.2em]"
+          className="text-xl font-light tracking-wide md:text-xl md:tracking-[0.2em]"
           style={{ color: 'rgba(255, 253, 247, 0.8)' }}
         >
           {WEDDING.arrivalTime} dolazak · {WEDDING.ceremonyTime} venčanje · {WEDDING.venueName}
         </p>
 
         <p
-          className="mt-2 max-w-md text-lg font-light leading-relaxed md:text-2xl"
+          className="mt-2 max-w-md text-lg font-light leading-relaxed md:text-3xl"
           style={{ color: 'rgba(255, 253, 247, 0.75)', fontFamily: 'var(--font-display)', fontStyle: 'italic' }}
         >
           {WEDDING.invitationText}
@@ -58,7 +58,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll Indicator */}
-      <div className="absolute bottom-36 left-1/2 z-10 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
+      <div className="absolute bottom-40 left-1/2 z-10 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
         <span 
           className="font-light tracking-widest uppercase opacity-70"
           style={{ color: '#fffdf7', fontFamily: 'var(--font-display)' }}
