@@ -1,0 +1,28 @@
+.ornament {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  justify-content: center;
+}
+
+.ornamentLine {
+  width: 60px;
+  height: 1px;
+  background-color: var(--color-primary);
+}
+
+.ornamentDiamond {
+  width: 7px;
+  height: 7px;
+  background-color: var(--color-primary);
+  transform: rotate(45deg);
+}
+
+.card {
+  border: 1px solid var(--color-border);
+  background-color: #fff9f0;
+}
+
+.detailItem {
+  border-top: 1px solid var(--color-border);
+}
