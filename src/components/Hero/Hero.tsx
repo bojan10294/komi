@@ -19,14 +19,14 @@ export default function Hero() {
           className="text-4xl font-light italic leading-none sm:text-6xl md:text-8xl"
           style={{ fontFamily: 'var(--font-display)', color: '#fffdf7' }}
         >
-          {WEDDING.groomName}
+          {WEDDING.brideName}
           <span
             className="mx-2 font-thin sm:mx-4"
             style={{ color: 'var(--color-primary)' }}
           >
             &
           </span>
-          {WEDDING.brideName}
+          {WEDDING.groomName}
         </h1>
 
         <div className="flex items-center gap-4">
